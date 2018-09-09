@@ -1,6 +1,7 @@
 import  executor
 
 
+
 file="test_script"
 data_file="output"
 
@@ -10,3 +11,7 @@ executor.python_execute(file, data_file)
 executor.c_compile(file,data_file)
 
 executor.c_plus_compile(file,data_file)
+
+executor.ping(data_file)
+
+executor.c_compile(file)#here add the file Name with extension
